@@ -2,11 +2,12 @@
 const myObject3 = {
     name: "Tulio",
     age: 2,
-    nicknames: [
+    //cuando agredo llaves{} me da error por que cada atributo no tiene una variable para agregar varios atributos a una variable de agrega por []
+    nicknames: {
      "Tulipan",
       "Tulancingo",
       "Tulish"
-    ],
+},
     address: {
       zip_code: "10000",
       street: "Dr. Vertiz 11 Benito Juarez",
