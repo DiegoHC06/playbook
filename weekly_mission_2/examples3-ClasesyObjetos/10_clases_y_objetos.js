@@ -19,9 +19,9 @@ class Explorer{
     }
   
     getGeneralInfo(){
-      let nameAndUsername = this.getNameAndUsername() // llamamos el método de la clase padre
+      this.nameAndUsername = this.getNameAndUsername() // llamamos el método de la clase padre
       // nameAndUsername  es una variable de esta función, no necesitas usar this para referenciarla.
-      return `${nameAndUsername}, Ciclo ${this.cycle}`
+      return `${this.nameAndUsername}, Ciclo ${this.cycle}`
     }
   }
   
